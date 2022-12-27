@@ -10,6 +10,16 @@ const handleMyEvent = (e) => {
       <div>
         <button onClick={handleMyEvent}>Clique aqui!</button>
       </div>
+      <div>
+        <button onClick={() => alert("Clicou...")}>Clique aqui também!</button>
+      </div>
+      <div>
+        <button onClick={() => {
+          if(true){
+            alert("Obrigado...")
+          }
+        }}>Clica aqui também 2...</button>
+      </div>
     </div>
   )
 }
