@@ -5,6 +5,14 @@ const handleMyEvent = (e) => {
     return alert("Ativou o evento...");
 }
 
+const renderSomething = (x) => {
+  if(x){
+    return <h1>Renderizando isso!</h1>;
+  }else{
+    return <h1>Também posso renderizar isso!</h1>;
+  }
+};
+
   return (
     <div>
       <div>
@@ -20,6 +28,8 @@ const handleMyEvent = (e) => {
           }
         }}>Clica aqui também 2...</button>
       </div>
+      {renderSomething(true)}
+      {renderSomething(false)}
     </div>
   )
 }
