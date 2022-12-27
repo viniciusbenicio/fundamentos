@@ -4,6 +4,7 @@ import './App.css';
 
 //Components
 import FirstComponents from './components/FirstComponents';
+import MyComponents from './components/MyComponents';
 import TemplateExpression from './components/TemplateExpressions';
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
         <p>Components importado</p>
         <FirstComponents />
         <TemplateExpression/>
+        <MyComponents/>
       </div>
 
     </div>
